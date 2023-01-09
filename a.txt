@@ -1,0 +1,25 @@
+## INTRODUCTION
+
+1.3.2
+
+NUMA(non-uniform memory access)
+
+- 장점 : CPU가 로컬 메모리에 엑세스 할 때 빠름, 시스템 상호 연결에 대한 경합도 없음. 더 많은 프로세스 추가될수록 효과적으로 확장
+- 단점 : 시스템 상호 연결을 통해 원격 메모리에 엑세스 해야 할 떄 지연시간 증가 > 성능 저하
+cpu0 의 자체 로컬 메모리 액세스 만큼 cpu3 로컬메모리에 못감
+
+1.4 운영체제의 작동
+
+[?] 부트스트랩 프로그램 - 펌웨어 - 
+
+[?] Daemon
+
+1.4.1 Multiprogramming and Multitasking
+
+- 프로세스-다중프로그래밍
+- 멀티테스킹
+
+1.4.2 Dual-mode and Multimode operation
+
+- mode bit
+- memory dump
